@@ -1,4 +1,6 @@
-a = 10
-b = 5 
-c = (a+b)
-print (c)
+x = input("Enter first number: ")
+y = input("Enter second number: ")
+
+sum = int(x) + int(y)
+
+print("The sum is: ", sum)
