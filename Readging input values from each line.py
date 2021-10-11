@@ -1,0 +1,5 @@
+name = input()
+age = int(input())
+height = float(input())
+employed = bool(input())
+print(name, age, height, employed)
