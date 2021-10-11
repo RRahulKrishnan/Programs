@@ -1,0 +1,22 @@
+#also a hackerrank list problem
+#using if-else in lists with all fuctions of list included 
+if __name__ == '__main__':
+    N = int(input())
+    lst = []
+    for i in range(0,N):
+        operation , *val = input().split()
+        #print(operation,val)
+        if operation == 'insert':
+           lst.insert(int(val[0]),int(val[1]))
+        elif  operation == 'print':
+            print(lst)
+        elif  operation == 'remove':
+            lst.remove(int(val[0]))
+        elif  operation == 'append':
+            lst.append(int(val[0]))
+        elif  operation == 'sort':
+            lst = sorted(lst)
+        elif  operation == 'pop':
+            lst.pop()
+        elif  operation == 'reverse':
+            lst = list(reversed(lst))
